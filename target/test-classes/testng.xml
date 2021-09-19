@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Selenium Automation Suite">
+
+	<parameter name="firstName" value="Shruthi" />
+	<parameter name="lastName" value="Kanth" />
+	<parameter name="companyName" value="Intelligence Bank" />
+	<parameter name="countryName" value="Australia" />
+	<parameter name="email" value="shruthi@gmail.com" />
+	<parameter name="mobileNumber" value="0485485485" />
+	<parameter name="enquiryDetails" value="Filling form details" />
+	<parameter name="checkboxStatus" value="true" />
+	<test name="Selenium Automation">
+		<classes>
+			<class name="testCases.ValidateContactUsFormTest" />
+		</classes>
+	</test>
+</suite>
